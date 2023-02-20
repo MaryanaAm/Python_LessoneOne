@@ -7,6 +7,5 @@ print(sum // 6, sum * 4 // 6, sum // 6)
 
 sum2 = int(input('Введите сумму: '))
 k = int(sum2 / 3 * 2) 
-p = int(sum2 / 3 / 2)
-s = p
+p = s = int(sum2 / 3 / 2)
 print(p, k, s)
