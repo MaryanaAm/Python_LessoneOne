@@ -8,4 +8,4 @@ print(sum)
 
 num2 = int((input('Введите трехзначное число: ')))
 
-print(num2 // 100 + num2 % 100 // 10 + num2 % 10 )
+print(num2 // 100 + num2 // 10 % 10 + num2 % 10 )
