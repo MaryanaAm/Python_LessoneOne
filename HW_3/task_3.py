@@ -41,5 +41,5 @@ dct ={'AEIOULNSTR' : 1,
 text = input('Введите слово: ').upper()
 summ = 0
 
-print(sum([v for i in text for k, v in dct.items() if i in k]))
+print(sum(v for i in text for k, v in dct.items() if i in k))
 
