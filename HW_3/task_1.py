@@ -20,8 +20,8 @@ print(*lst)
 x = int(input('Введите число для проверки: '))
 count = 0
 
-for i in range(0, len(lst)):
-    if x == lst[i]:
+for i in lst:
+    if x == i:
         count += 1
    
 print(f' Вывод: {count} ')
