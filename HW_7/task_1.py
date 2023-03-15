@@ -41,8 +41,3 @@ if len(set(new_lst)) == 1 :
     print("Парам пам-пам") 
 else: 
     print("Пам парам")
-
-
-
-
-
