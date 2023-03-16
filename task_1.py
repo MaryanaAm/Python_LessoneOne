@@ -34,8 +34,7 @@ lst = str.split()
  
 print(lst)
  
-new_lst = [sum(x in 'уеыаоэяию' for x in y)
- for y in lst]
+new_lst = [sum(x in 'уеыаоэяию' for x in y) for y in lst]
  
 if len(set(new_lst)) == 1 :
     print("Парам пам-пам") 
